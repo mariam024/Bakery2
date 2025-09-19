@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav {
+    background-color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.nav .logo {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav ul {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 500px;
+}
+
+
+.nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: gray;
+    text-align: center;
+    margin: 10px;
+    font-size: 18px;
+}
+
+.nav ul li a:hover {
+    color: #8e7754cf;
+    transition: .3s;
+}
+
+.container {
+    background-image: url("/images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding-top: 100px;
+    position: relative;
+    text-align: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.285);
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.content {
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h5 {
+    font-size: 24px;
+}
+
+.content h3 {
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 20px;
+    margin-bottom: 40px;
+    width: 600px;
+    color: #fff;
+}
+
+.btn1 {
+    padding: 15px 20px;
+    background-color: #8E7754;
+    color: white;
+    border: 3px solid #8E7754;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.btn2 {
+    padding: 15px 20px;
+    background-color: transparent;
+    color: white;
+    border: 3px solid #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #fff;
+    color: black;
+    transition: .6s;
+    border: 3px solid #fff;
+}
+
+.about,
+.location {
+    padding: 50px 100px;
+    font-size: 0;
+}
+
+.aboutImage,
+.aboutContent,
+.locationContent,
+.locationImg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 50%;
+    font-size: 16px;
+    padding: 20px;
+    color: #303030;
+}
+
+.aboutImage img,
+.locationImg img {
+    width: 100%;
+}
+
+h2 {
+    font-size: 30px;
+    padding: 20px 0;
+    color: #303030;
+}
+
+p {
+    padding: 10px 0;
+    font-size: 16px;
+    color: gray;
+    line-height: 1.6;
+}
+
+.aboutContent i {
+    color: #8E7754;
+    border: 1px solid rgba(128, 128, 128, 0.371);
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+.location {
+
+    background-color: #F8F8F8;
+    width: 100%;
+}
+
+.bakeryContent {
+    text-align: center;
+}
+
+.bakery {
+    padding: 50px 0;
+}
+
+.cards {
+    width: 100%;
+    padding: 40px;
+}
+
+.card {
+    float: left;
+    width: 33.3%;
+    text-align: center;
+    padding: 10px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card h3 {
+    color: #303030;
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+.clearFix {
+    clear: both;
+}
+
+.contact {
+    background-color: #F8F8F8;
+    padding: 50px 200px;
+    width: 100%;
+}
+
+.contactContent {
+    float: left;
+    width: 60%;
+}
+
+.contactContent p {
+    width: 70%;
+}
+
+.contactContent i {
+    background-color: #8E7754;
+    color: #fff;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+}
+
+.contactImg {
+    float: right;
+    width: 40%;
+
+}
+
+.contactImg img {
+    width: 100%;
+}
+
+.blogs {
+    background-color: #403D38;
+    padding: 50px 100px;
+}
+
+.blog {
+    width: 25%;
+    float: left;
+    padding: 15px;
+}
+
+.blog h4 {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.blog p {
+    border-bottom: 1px solid #6F6E6E;
+}
+
+.blog .noBorder {
+    border: none;
+}
+
+.map {
+    background-image: url(/images/contact-details-map.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 30px;
+}
+
+.footer p {
+    color: #6F6E6E;
+    font-size: 14px;
+    padding: 20px;
+}
+
+.footer i {
+    color: #6F6E6E;
+    background-color: #3c3c3c;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-right: 10px;
+}
